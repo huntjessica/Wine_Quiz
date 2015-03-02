@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Wine Quiz</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" href="css/reset.css">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script type="text/javascript" src="scripts/scripts.js"></script>
+  <link href='http://fonts.googleapis.com/css?family=Libre+Baskerville:400,400italic|Montserrat' rel='stylesheet' type='text/css'>
+</head>
+<body>
+  <div id="content">
+    <header>
+      <h1>Wine Quiz</h1>
+    </header>
+
+    <!-- Instructions -->
+    <div id = "instructions">
+      <h2>Do you know Wine? </h2>
+      <p>Test your Wine knowledge! </p>
+    
+      <div id="begin">
+        <a href="#"><button>Start</button></a>
+      </div>
+    </div>
+    <!-- End Instructions -->
+    <!-- Quiz area -->
+    <div id="quiz">
+      <!-- Question area -->
+      <div id="question">
+        <h2 id = "currentQ"></h2>
+      </div>
+
+      <div id="choices">
+        <ul>
+          <li><label for="radios0"><input type="radio" name="radios" id="radios0" value = "1"><span id="choice0"></span></label></li>
+          <li><label for="radios1"><input type="radio" name="radios" id="radios1" value = "2"><span id="choice1"></span></label></li>
+          <li><label for="radios2"><input type="radio" name="radios" id="radios2" value = "3"><span id="choice2"></span><li><label for="radios3"><input type="radio" name="radios" id="radios3" value = "4"><span id="choice3"></span></label></li>
+        </ul>
+      </div>
+
+      <!-- Answer area -->
+      <div id = "feedback">
+        <div id="submitAnswer"><h2>Check answer</h2></div>
+      <!-- Definition area -->
+      <div id = "definition"></div>
+
+      <!-- Next question area -->
+      <div id= "nextQ">
+        <h2>Next question</h2>
+      </div>
+
+      </div>
+
+      <!-- Question number area -->
+      <div id="count"></div>
+
+
+      <!-- Final Score area -->
+      <div id="playAgain">
+        <h2>Play Again?</h2>
+      </div>
+    </div>
+    
+ </div> 
+</body>
+</html>
