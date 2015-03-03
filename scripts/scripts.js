@@ -24,7 +24,7 @@ var questions = [
   qNum: 3,
   q: "Pinotage was created in 1925 by crossing Pinot Noir and which other grape??",
   choices: ["Chenin Blanc", "Cinsaut", "Merlot", "Cabernet Franc"],
-  correct: 3,
+  correct: 2,
   definition: "In 1925 Pinotage was created by Professor Perold using a crossing of Pinot Noir and Cinsault."
 },
 
