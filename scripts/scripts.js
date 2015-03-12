@@ -2,7 +2,6 @@ $(document).ready (function() {
 
 
 
-//question objects
 var questions = [
 {
   qNum: 1,
